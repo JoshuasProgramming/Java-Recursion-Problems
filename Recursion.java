@@ -40,7 +40,7 @@ public class Recursion {
         if(n == 1) return 1;
 
         //recursive case
-        
+        return -1;
     }
 }
 
