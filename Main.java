@@ -12,9 +12,10 @@ public class Main{
         //fibonacci problem
         // System.out.println(recur.fibonacci(21));
 
-        
+        //PowerN problem
         System.out.println("PowerN Problem: " +  recur.powerN(3,2));
 
+        //Triangle problem
         System.out.println("Triangle Problem: " + recur.triangle(5));
     }
 }
