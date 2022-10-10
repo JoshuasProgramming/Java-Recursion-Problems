@@ -6,5 +6,7 @@ public class Main{
         //factorial problem
         System.out.println(recur.factorial(5));
 
+        //bunnyEars problem
+        System.out.println(recur.bunnyEars(5));
     }
 }

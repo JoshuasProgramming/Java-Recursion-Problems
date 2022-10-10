@@ -8,6 +8,7 @@ public class Recursion {
      * @param n  
      * @return the sum of the multiplication of n times n - 1 until n equals 0
      */ 
+
     public int factorial(int n) {
 
         //base case
@@ -17,4 +18,18 @@ public class Recursion {
         return n * factorial(n - 1);
     }
 
+
+    public int bunnyEars(int bunnies) { 
+
+        //base case
+        if(bunnies == 0) return 0;
+
+        //recursion case
+        //keep on adding 2 until bunnies equals to zero.
+        //When it does we'll add the sum to 0
+        return bunnyEars(bunnies - 1) + 2;
+
+    }
 }
+
+
