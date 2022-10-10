@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Recursion {
 
     /**
@@ -51,6 +53,16 @@ public class Recursion {
 
         //recurisve case
         return powerN(base, n-1) * base;
+    }
+
+    public int triangle(int rows) {
+        
+        //base case
+        if(rows <= 0) return 0;
+
+        //recursive case
+        return triangle(rows - 1) + rows;
+  
     }
 }
 
