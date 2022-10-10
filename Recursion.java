@@ -42,6 +42,16 @@ public class Recursion {
         //recursive case
         return -1;
     }
+
+
+    public int powerN(int base, int n) {
+
+        //base case
+        if(n == 1) return base;
+
+        //recurisve case
+        return powerN(base, n-1) * base;
+    }
 }
 
 
