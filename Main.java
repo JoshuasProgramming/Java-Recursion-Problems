@@ -8,5 +8,8 @@ public class Main{
 
         //bunnyEars problem
         System.out.println(recur.bunnyEars(5));
+
+        //fibonacci problem
+        System.out.println(recur.fibonacci(21));
     }
 }

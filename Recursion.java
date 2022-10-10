@@ -30,6 +30,18 @@ public class Recursion {
         return bunnyEars(bunnies - 1) + 2;
 
     }
+
+    public int fibonacci(int n) {
+        
+        //base case 1
+        if(n == 0) return 0;
+
+        //base case 2
+        if(n == 1) return 1;
+
+        //recursive case
+        
+    }
 }
 
 
