@@ -4,14 +4,14 @@ public class Main{
         Recursion recur = new Recursion();
 
         //factorial problem
-        System.out.println(recur.factorial(5));
+        System.out.println("Factorial Probelm: " + recur.factorial(5));
 
         //bunnyEars problem
-        System.out.println(recur.bunnyEars(5));
+        System.out.println("BunnyEars Problem: " + recur.bunnyEars(5));
 
         //fibonacci problem
         // System.out.println(recur.fibonacci(21));
 
-        System.out.println(recur.powerN(3,2));
+        System.out.println("PowerN Problem: " +  recur.powerN(3,2));
     }
 }
