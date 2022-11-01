@@ -36,13 +36,10 @@ public class Recursion {
     public int fibonacci(int n) {
         
         //base case 1
-        if(n == 0) return 0;
-
-        //base case 2
-        if(n == 1) return 1;
+        if(n < 2) return 1;
 
         //recursive case
-        return -1;
+        return fibonacci(n - 1) + fibonacci(n - 2);
     }
 
 
@@ -72,13 +69,13 @@ public class Recursion {
             return n;
         }
 
-        //recursive case
+        //recursive case []
         return (sumOfDigits(n/10)) + n % 10;
     }
 
-    public int sumOfPartsOfArray(int[] n){
-        
-    }
+    // public int sumOfPartsOfArray(int[] n){
+
+    // }
 }
 
 

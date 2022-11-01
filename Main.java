@@ -10,7 +10,8 @@ public class Main{
         // System.out.println("BunnyEars Problem: " + recur.bunnyEars(5));
 
         //fibonacci problem
-        System.out.println(recur.fibonacci(21));
+        // 0 1 1 2 3 5 8 13 21 34 55
+        System.out.println(recur.fibonacci(7));
 
         //PowerN problem (exponentiation)
         System.out.println("PowerN Problem: " + recur.powerN(3,2));
