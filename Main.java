@@ -4,18 +4,21 @@ public class Main{
         Recursion recur = new Recursion();
 
         //factorial problem
-        System.out.println("Factorial Probelm: " + recur.factorial(5));
+        System.out.println("Factorial Problem: " + recur.factorial(5));
 
-        //bunnyEars problem
-        System.out.println("BunnyEars Problem: " + recur.bunnyEars(5));
+        // //bunnyEars problem
+        // System.out.println("BunnyEars Problem: " + recur.bunnyEars(5));
 
         //fibonacci problem
-        // System.out.println(recur.fibonacci(21));
+        System.out.println(recur.fibonacci(21));
 
-        //PowerN problem
-        System.out.println("PowerN Problem: " +  recur.powerN(3,2));
+        //PowerN problem (exponentiation)
+        System.out.println("PowerN Problem: " + recur.powerN(3,2));
 
-        //Triangle problem
-        System.out.println("Triangle Problem: " + recur.triangle(5));
+        //sum of digits
+        System.out.println("Sum of digits: " + recur.sumOfDigits(999));
+
+        // //Triangle problem
+        // System.out.println("Triangle Problem: " + recur.triangle(5));
     }
 }

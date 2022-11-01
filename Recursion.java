@@ -1,4 +1,4 @@
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class Recursion {
 
@@ -51,7 +51,7 @@ public class Recursion {
         //base case
         if(n == 1) return base;
 
-        //recurisve case
+        //recursive case
         return powerN(base, n-1) * base;
     }
 
@@ -64,6 +64,15 @@ public class Recursion {
         return triangle(rows - 1) + rows;
   
     }
+
+    public int sumOfDigits(int n){
+        if(String.valueOf(n).length() == 1){
+            return n;
+        }
+        return (sumOfDigits(n/10)) + n % 10;
+    }
+
+    
 }
 
 
