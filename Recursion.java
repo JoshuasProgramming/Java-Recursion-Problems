@@ -66,13 +66,19 @@ public class Recursion {
     }
 
     public int sumOfDigits(int n){
+
+        //base case
         if(String.valueOf(n).length() == 1){
             return n;
         }
+
+        //recursive case
         return (sumOfDigits(n/10)) + n % 10;
     }
 
-    
+    public int sumOfPartsOfArray(int[] n){
+        
+    }
 }
 
 
