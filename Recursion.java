@@ -73,6 +73,50 @@ public class Recursion {
         return (sumOfDigits(n/10)) + n % 10;
     }
 
+    public int binaryNumOfN(int n){
+
+        //base case
+        if(n == 0){
+            return -1;
+        }
+
+        //recursive case
+        return binaryNumOfN(n) + n*n;
+        
+
+
+        //4 => 16
+    }
+
+    public int threeXPlus1(int x){
+
+        //when x is 1 we won't print out x
+        if(x > 1){
+            System.out.println(x);
+        }
+
+        //base case
+        if(x == 1){
+            return x;
+        }
+
+        //if x is even
+        if(x % 2 == 0){
+            x = (x/2);
+            return (threeXPlus1(x));
+        }
+
+
+        //if x is odd
+        if(x % 2 == 1){
+            x = ((3 * x) + 1);
+            return (threeXPlus1(x));
+        }
+
+        return 1; 
+
+    }
+
     // public int sumOfPartsOfArray(int[] n){
 
     // }

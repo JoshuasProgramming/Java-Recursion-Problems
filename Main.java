@@ -19,6 +19,10 @@ public class Main{
         //sum of digits
         System.out.println("Sum of digits: " + recur.sumOfDigits(999));
 
+        // System.out.println(recur.binaryNumOfN(4));
+
+        System.out.println(recur.threeXPlus1(6));
+
         // //Triangle problem
         // System.out.println("Triangle Problem: " + recur.triangle(5));
     }
